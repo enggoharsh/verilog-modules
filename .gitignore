@@ -1,0 +1,17 @@
+# waveform files
+*.vcd
+
+# simulation outputs
+*.out
+*.log
+
+# GTKWave session
+*.gtkw
+
+# editor files
+.vscode/
+*.swp
+
+# OS junk
+Thumbs.db
+.DS_Store
