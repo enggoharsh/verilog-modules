@@ -1,0 +1,20 @@
+module decoder2to4_tb ();
+
+reg [1:0] in;
+wire [3:0] out;
+
+decoder2to4 dec2to4 (in, out);
+
+initial begin
+    $dumpfile ("decoder2to4.vcd");
+    $dumpvars (0, decoder2to4_tb);
+
+    in = 2'b00;
+    #10 in = 2'b01;
+    #10 in = 2'b10;
+    #10 in = 2'b11;
+    #10;
+    $finish;
+end
+    
+endmodule
