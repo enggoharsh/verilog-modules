@@ -2,6 +2,8 @@
 *.vcd
 
 # simulation outputs
+sim_out
+sim_out_mux
 *.out
 *.log
 
